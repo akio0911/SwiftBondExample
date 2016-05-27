@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E506633D1CF862F30090C801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E506633C1CF862F30090C801 /* Main.storyboard */; };
+		E50663471CF8649C0090C801 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663411CF8649C0090C801 /* Color.swift */; };
+		E50663481CF8649C0090C801 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663421CF8649C0090C801 /* ColorManager.swift */; };
+		E50663491CF8649C0090C801 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663431CF8649C0090C801 /* SecondViewController.swift */; };
+		E506634A1CF8649C0090C801 /* TabColor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50663441CF8649C0090C801 /* TabColor.storyboard */; };
+		E506634B1CF8649C0090C801 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663451CF8649C0090C801 /* ThirdViewController.swift */; };
+		E506634C1CF8649C0090C801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663461CF8649C0090C801 /* ViewController.swift */; };
 		E5CC96F51CF5E0A100830F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC96F41CF5E0A100830F06 /* AppDelegate.swift */; };
-		E5CC96F71CF5E0A100830F06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC96F61CF5E0A100830F06 /* ViewController.swift */; };
-		E5CC96FA1CF5E0A100830F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CC96F81CF5E0A100830F06 /* Main.storyboard */; };
 		E5CC96FC1CF5E0A100830F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CC96FB1CF5E0A100830F06 /* Assets.xcassets */; };
 		E5CC96FF1CF5E0A100830F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CC96FD1CF5E0A100830F06 /* LaunchScreen.storyboard */; };
 		E5CC97071CF5E16200830F06 /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CC97061CF5E16200830F06 /* Bond.framework */; };
 		E5CC97081CF5E16200830F06 /* Bond.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5CC97061CF5E16200830F06 /* Bond.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E5CC970B1CF5E16D00830F06 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC970A1CF5E16D00830F06 /* Color.swift */; };
-		E5CC970D1CF5E1D300830F06 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC970C1CF5E1D300830F06 /* ColorManager.swift */; };
-		E5CC970F1CF5E34A00830F06 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC970E1CF5E34A00830F06 /* SecondViewController.swift */; };
-		E5CC97111CF5E35D00830F06 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC97101CF5E35D00830F06 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,18 +36,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E506633C1CF862F30090C801 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E50663411CF8649C0090C801 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		E50663421CF8649C0090C801 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		E50663431CF8649C0090C801 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E50663441CF8649C0090C801 /* TabColor.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabColor.storyboard; sourceTree = "<group>"; };
+		E50663451CF8649C0090C801 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		E50663461CF8649C0090C801 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5CC96F11CF5E0A100830F06 /* SwiftBondExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBondExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CC96F41CF5E0A100830F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5CC96F61CF5E0A100830F06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5CC96F91CF5E0A100830F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5CC96FB1CF5E0A100830F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5CC96FE1CF5E0A100830F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5CC97001CF5E0A100830F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5CC97061CF5E16200830F06 /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
-		E5CC970A1CF5E16D00830F06 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		E5CC970C1CF5E1D300830F06 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
-		E5CC970E1CF5E34A00830F06 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		E5CC97101CF5E35D00830F06 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E50663401CF8649C0090C801 /* TabColor */ = {
+			isa = PBXGroup;
+			children = (
+				E50663411CF8649C0090C801 /* Color.swift */,
+				E50663421CF8649C0090C801 /* ColorManager.swift */,
+				E50663441CF8649C0090C801 /* TabColor.storyboard */,
+				E50663461CF8649C0090C801 /* ViewController.swift */,
+				E50663431CF8649C0090C801 /* SecondViewController.swift */,
+				E50663451CF8649C0090C801 /* ThirdViewController.swift */,
+			);
+			path = TabColor;
+			sourceTree = "<group>";
+		};
 		E5CC96E81CF5E0A000830F06 = {
 			isa = PBXGroup;
 			children = (
@@ -82,12 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				E5CC96F41CF5E0A100830F06 /* AppDelegate.swift */,
-				E5CC970A1CF5E16D00830F06 /* Color.swift */,
-				E5CC970C1CF5E1D300830F06 /* ColorManager.swift */,
-				E5CC96F61CF5E0A100830F06 /* ViewController.swift */,
-				E5CC970E1CF5E34A00830F06 /* SecondViewController.swift */,
-				E5CC97101CF5E35D00830F06 /* ThirdViewController.swift */,
-				E5CC96F81CF5E0A100830F06 /* Main.storyboard */,
+				E506633C1CF862F30090C801 /* Main.storyboard */,
+				E50663401CF8649C0090C801 /* TabColor */,
 				E5CC96FB1CF5E0A100830F06 /* Assets.xcassets */,
 				E5CC96FD1CF5E0A100830F06 /* LaunchScreen.storyboard */,
 				E5CC97001CF5E0A100830F06 /* Info.plist */,
@@ -154,9 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E506634A1CF8649C0090C801 /* TabColor.storyboard in Resources */,
 				E5CC96FF1CF5E0A100830F06 /* LaunchScreen.storyboard in Resources */,
 				E5CC96FC1CF5E0A100830F06 /* Assets.xcassets in Resources */,
-				E5CC96FA1CF5E0A100830F06 /* Main.storyboard in Resources */,
+				E506633D1CF862F30090C801 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,26 +179,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5CC96F71CF5E0A100830F06 /* ViewController.swift in Sources */,
 				E5CC96F51CF5E0A100830F06 /* AppDelegate.swift in Sources */,
-				E5CC970B1CF5E16D00830F06 /* Color.swift in Sources */,
-				E5CC970F1CF5E34A00830F06 /* SecondViewController.swift in Sources */,
-				E5CC97111CF5E35D00830F06 /* ThirdViewController.swift in Sources */,
-				E5CC970D1CF5E1D300830F06 /* ColorManager.swift in Sources */,
+				E506634B1CF8649C0090C801 /* ThirdViewController.swift in Sources */,
+				E50663471CF8649C0090C801 /* Color.swift in Sources */,
+				E506634C1CF8649C0090C801 /* ViewController.swift in Sources */,
+				E50663491CF8649C0090C801 /* SecondViewController.swift in Sources */,
+				E50663481CF8649C0090C801 /* ColorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E5CC96F81CF5E0A100830F06 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5CC96F91CF5E0A100830F06 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5CC96FD1CF5E0A100830F06 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -330,6 +334,7 @@
 				E5CC97051CF5E0A100830F06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
