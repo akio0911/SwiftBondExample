@@ -16,6 +16,7 @@
 		E506634C1CF8649C0090C801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663461CF8649C0090C801 /* ViewController.swift */; };
 		E506634F1CF869270090C801 /* PrevAndCurrent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E506634E1CF869270090C801 /* PrevAndCurrent.storyboard */; };
 		E50663511CF869D60090C801 /* PrevAndCurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663501CF869D60090C801 /* PrevAndCurrentViewController.swift */; };
+		E50663531CF8C5D30090C801 /* PrevAndCurrentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663521CF8C5D30090C801 /* PrevAndCurrentViewModel.swift */; };
 		E5CC96F51CF5E0A100830F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC96F41CF5E0A100830F06 /* AppDelegate.swift */; };
 		E5CC96FC1CF5E0A100830F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CC96FB1CF5E0A100830F06 /* Assets.xcassets */; };
 		E5CC96FF1CF5E0A100830F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CC96FD1CF5E0A100830F06 /* LaunchScreen.storyboard */; };
@@ -47,6 +48,7 @@
 		E50663461CF8649C0090C801 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E506634E1CF869270090C801 /* PrevAndCurrent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PrevAndCurrent.storyboard; sourceTree = "<group>"; };
 		E50663501CF869D60090C801 /* PrevAndCurrentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrevAndCurrentViewController.swift; sourceTree = "<group>"; };
+		E50663521CF8C5D30090C801 /* PrevAndCurrentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrevAndCurrentViewModel.swift; sourceTree = "<group>"; };
 		E5CC96F11CF5E0A100830F06 /* SwiftBondExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBondExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CC96F41CF5E0A100830F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5CC96FB1CF5E0A100830F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				E506634E1CF869270090C801 /* PrevAndCurrent.storyboard */,
 				E50663501CF869D60090C801 /* PrevAndCurrentViewController.swift */,
+				E50663521CF8C5D30090C801 /* PrevAndCurrentViewModel.swift */,
 			);
 			path = PrevAndCurrent;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				E506634C1CF8649C0090C801 /* ViewController.swift in Sources */,
 				E50663491CF8649C0090C801 /* SecondViewController.swift in Sources */,
 				E50663481CF8649C0090C801 /* ColorManager.swift in Sources */,
+				E50663531CF8C5D30090C801 /* PrevAndCurrentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
