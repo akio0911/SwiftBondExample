@@ -14,6 +14,8 @@
 		E506634A1CF8649C0090C801 /* TabColor.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50663441CF8649C0090C801 /* TabColor.storyboard */; };
 		E506634B1CF8649C0090C801 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663451CF8649C0090C801 /* ThirdViewController.swift */; };
 		E506634C1CF8649C0090C801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663461CF8649C0090C801 /* ViewController.swift */; };
+		E506634F1CF869270090C801 /* PrevAndCurrent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E506634E1CF869270090C801 /* PrevAndCurrent.storyboard */; };
+		E50663511CF869D60090C801 /* PrevAndCurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50663501CF869D60090C801 /* PrevAndCurrentViewController.swift */; };
 		E5CC96F51CF5E0A100830F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC96F41CF5E0A100830F06 /* AppDelegate.swift */; };
 		E5CC96FC1CF5E0A100830F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CC96FB1CF5E0A100830F06 /* Assets.xcassets */; };
 		E5CC96FF1CF5E0A100830F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CC96FD1CF5E0A100830F06 /* LaunchScreen.storyboard */; };
@@ -43,6 +45,8 @@
 		E50663441CF8649C0090C801 /* TabColor.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabColor.storyboard; sourceTree = "<group>"; };
 		E50663451CF8649C0090C801 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		E50663461CF8649C0090C801 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E506634E1CF869270090C801 /* PrevAndCurrent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PrevAndCurrent.storyboard; sourceTree = "<group>"; };
+		E50663501CF869D60090C801 /* PrevAndCurrentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrevAndCurrentViewController.swift; sourceTree = "<group>"; };
 		E5CC96F11CF5E0A100830F06 /* SwiftBondExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBondExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5CC96F41CF5E0A100830F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5CC96FB1CF5E0A100830F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +80,15 @@
 			path = TabColor;
 			sourceTree = "<group>";
 		};
+		E506634D1CF869030090C801 /* PrevAndCurrent */ = {
+			isa = PBXGroup;
+			children = (
+				E506634E1CF869270090C801 /* PrevAndCurrent.storyboard */,
+				E50663501CF869D60090C801 /* PrevAndCurrentViewController.swift */,
+			);
+			path = PrevAndCurrent;
+			sourceTree = "<group>";
+		};
 		E5CC96E81CF5E0A000830F06 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 				E5CC96F41CF5E0A100830F06 /* AppDelegate.swift */,
 				E506633C1CF862F30090C801 /* Main.storyboard */,
 				E50663401CF8649C0090C801 /* TabColor */,
+				E506634D1CF869030090C801 /* PrevAndCurrent */,
 				E5CC96FB1CF5E0A100830F06 /* Assets.xcassets */,
 				E5CC96FD1CF5E0A100830F06 /* LaunchScreen.storyboard */,
 				E5CC97001CF5E0A100830F06 /* Info.plist */,
@@ -169,6 +183,7 @@
 				E5CC96FF1CF5E0A100830F06 /* LaunchScreen.storyboard in Resources */,
 				E5CC96FC1CF5E0A100830F06 /* Assets.xcassets in Resources */,
 				E506633D1CF862F30090C801 /* Main.storyboard in Resources */,
+				E506634F1CF869270090C801 /* PrevAndCurrent.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5CC96F51CF5E0A100830F06 /* AppDelegate.swift in Sources */,
+				E50663511CF869D60090C801 /* PrevAndCurrentViewController.swift in Sources */,
 				E506634B1CF8649C0090C801 /* ThirdViewController.swift in Sources */,
 				E50663471CF8649C0090C801 /* Color.swift in Sources */,
 				E506634C1CF8649C0090C801 /* ViewController.swift in Sources */,
