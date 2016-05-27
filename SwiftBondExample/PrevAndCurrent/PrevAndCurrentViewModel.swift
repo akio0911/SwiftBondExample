@@ -10,16 +10,13 @@ import Foundation
 import Bond
 
 internal class PrevAndCurrentViewModel {
-    private let _current:  Observable<Int?>
-    private let _previous: Observable<Int?>
+    private let _current  = Observable<Int?>(nil)
+    private let _previous = Observable<Int?>(nil)
     
     internal let prevText:    EventProducer<String>
     internal let currentText: EventProducer<String>
     
     internal init() {
-        _current  = Observable<Int?>(nil)
-        _previous = Observable<Int?>(nil)
-        
         currentText = _current .map{ $0?.description ?? "nil" }
         prevText    = _previous.map{ $0?.description ?? "nil" }
     }
